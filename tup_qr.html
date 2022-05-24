@@ -7,25 +7,42 @@
         <title>TUP Cafeteria QR Ordering</title>
         <link rel="icon" href="">
         <link rel="stylesheet" href="./index.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </head>
 
     <body style="background: whitesmoke;">
         
         <div class="header">
         <nav>
-            
-            <div >
-                <img style="height: 30px; width: 30px; margin-top: 20px"src="./pics/menu.png">
-            </div>
-            
-            
-            <div class="appName">
-            <p>TUP Manila Cafeteria QR</p>
-            </div>
-
-            <div>
-                <img  src="./pics/bell.png" width="17px", height="17px", style="float: right; margin-right: 15px; margin-top: -19px">
-            </div>
+		<br>
+		<header><center><p>TUP Manila Cafeteria QR</p></header></center>
+         
+		<div>
+           <a href = "notifications.html"><img  src="bell.png" width="17px", height="17px", style="float: right; margin-right: 15px; margin-top: -19px">
+			</a>
+        </div>
+        
+     
+	 <div style = "top:1px; left:-15px; position:absolute;i-index:2;">
+      <div class="wrapper">
+      <input type="checkbox" id="btn" hidden>
+      <label for="btn" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </label>
+      <nav id="sidebar">
+        <div class="title"> Menu</div>
+        <ul class="list-items">
+          <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+          <li><a href="#"><i class="fas fa-map-marker-alt"></i>Location</a></li>
+          <li><a href="#"><i class="fas fa-cog"></i>Settings</a></li>
+          <li><a href="#"><i class="fas fa-phone-alt"></i>Contact Us</a></li>
+          <li><a href="#"><i class="fas fa-user"></i>About us</a></li>
+		   <li><a href="Login.html"><i class="fa fa-power-off"></i>Log out</a></li>
+        </ul>
+      </nav>
+    </div>
+       </div>
         
         </nav>
         </div>
@@ -37,7 +54,7 @@
 
                 <button type="submit" id="search-Item-Button" style="background-color: rgb(219, 65, 65); border: none; padding: 2px 10px;">
                     <div>
-                        <img src="./pics/search.png" width="12px", height="12px">
+                        <img src="search.png" width="12px", height="12px">
                     </div>
                 </button>
             </form>
@@ -50,9 +67,9 @@
 
         <table class="format" border="1px" align="center" bordercolor="whitesmoke" cellspacing="10px">
             <tr>
-                <td><img src="./pics/store1.png" alt="1" height=80 width=80 /></td>
-                <td><img src="./pics/store2.jpg" alt="2" height=80 width=80 /></td>
-                <td><img src="./pics/store3.png" alt="3" height=80 width=80 /></td>
+                <td><img src="store1.png" alt="1" height=80 width=80 /></td>
+                <td><img src="store2.jpg" alt="2" height=80 width=80 /></td>
+                <td><img src="store3.png" alt="3" height=80 width=80 /></td>
             </tr>
             <tr>
                 <td>Store A</td>
@@ -60,9 +77,9 @@
                 <td>Sweet & Fresh Donuts</td>
             </tr>
             <tr>
-                <td><img src="./pics/store4.png" alt="4" height=80 width=80 /></td>
-                <td><img src="./pics/store5.jpg" alt="5" height=80 width=80 /></td>
-                <td><img src="./pics/store6.png" alt="6" height=80 width=80 /></td>
+                <td><img src="store4.png" alt="4" height=80 width=80 /></td>
+                <td><img src="store5.jpg" alt="5" height=80 width=80 /></td>
+                <td><img src="store6.png" alt="6" height=80 width=80 /></td>
             </tr>
             <tr>
                 <td>Vegan on the Go</td>
@@ -73,23 +90,26 @@
 
           <div class="foot">
               <div class="qrPage" style="display: inline-block; margin-left: 8px; margin-top: 10px;">
-                <img src="./pics/qr.png" alt="" width="25px" height="25px" style="display:block;  margin: auto; margin-top: 8px;" >
+                <img src="qr.png" alt="" width="25px" height="25px" style="display:block;  margin: auto; margin-top: 8px;" >
                 <p>QR</p>
             </div>
 
               <div class="favePage" style="display: inline-block; margin-left: 3px;">
-                <img src="./pics/fave.png" alt="" width="25px" height="25px"  style="display:block;  margin: auto; margin-top: 8px;" >
-                <p>Favorites</p>
+                <a href = "favorite.html"><img src="fave.png" alt="" width="25px" height="25px"  style="display:block;  margin: auto; margin-top: 8px;" >
+                 <p style ="color:black;">Favorites</p>
+				</a>
             </div>
 
               <div class="cancelPage" style="display: inline-block; margin-left: 3px;">
-                <img src="./pics/cancel.png" alt="" width="25px" height="25px"  style="display:block;  margin: auto; margin-top: 8px;" >
-                <p>Cancelled</p>
+                <a href = "cancel.html"><img src="cancel.png" alt="" width="25px" height="25px"  style="display:block;  margin: auto; margin-top: 8px;" >
+                 <p style ="color:black;">Cancelled</p>
+				</a>
             </div>
 
               <div class="hisPage" style="display: inline-block; margin-left: 3px;">
-                <img src="./pics/history.png" alt="" width="28px" height="25px"  style="display:block;  margin: auto; margin-top: 8px;" >
-                <p>History</p>
+                <a href = "history.html"><img src="history.png" alt="" width="28px" height="25px"  style="display:block;  margin: auto; margin-top: 8px;" >
+                <p style ="color:black;">History</p>
+				</a>
             </div>
           </div>
 
