@@ -137,7 +137,7 @@
 }
 
 .header{
-    width: 298px;
+    width: 320px;
     height: 50px;
     border-color: rgb(197, 34, 34);
     border-width: 0px;
@@ -183,15 +183,15 @@ table.format td, table.format th{
     border-width: 0px;
     padding-bottom: 0px;
     background-color: rgb(255, 125, 125);
-    width: 298px;
+    width: 320px;
     height: 70px;
-    margin-top: 75px;   
+    margin-top: 68px;   
 }
 
 .qrPage{
     border-color: rgb(197, 34, 34);
     background-color: rgb(197, 34, 34);
-    width: 65px;
+    width: 68px;
     height: 50px;
     border-radius: 5px;
     font-size: 11px;
@@ -201,7 +201,7 @@ table.format td, table.format th{
 .favePage{
     border-color: rgb(197, 34, 34);
     background-color: rgb(197, 34, 34);
-    width: 65px;
+    width: 68px;
     height: 50px;
     border-radius: 5px;
     font-size: 11px;
@@ -211,7 +211,7 @@ table.format td, table.format th{
 .cancelPage{
     border-color: rgb(197, 34, 34);
     background-color: rgb(197, 34, 34);
-    width: 65px;
+    width: 68px;
     height: 50px;
     border-radius: 5px;
     font-size: 11px;
@@ -221,7 +221,7 @@ table.format td, table.format th{
 .hisPage{
     border-color: rgb(197, 34, 34);
     background-color: rgb(197, 34, 34);
-    width: 65px;
+    width: 68px;
     height: 50px;
     border-radius: 5px;
     font-size: 11px;
